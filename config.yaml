@@ -1,0 +1,35 @@
+# comment-intel settings. All values below are synthetic examples.
+
+# Channels to monitor. channel_id is the "UC..." id from YouTube Studio >
+# Settings > Channel > Advanced. Replace the placeholders with your own.
+channels:
+  - name: "Demo Channel - Bookkeeping Basics"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxxxxx"   # synthetic placeholder
+  - name: "Demo Channel - Spreadsheet Lab"
+    channel_id: "UCyyyyyyyyyyyyyyyyyyyyyy"   # synthetic placeholder
+
+# Free pre-filter: a comment must clear one of these bars before it is sent
+# to the LLM (cost control).
+thresholds:
+  min_likes: 2             # keep comments with at least this many likes...
+  min_length: 40           # ...OR at least this many characters...
+                           # ...OR a question of 15+ characters
+  max_videos_backfill: 5   # videos per channel on the very first run
+  max_videos_daily: 15     # videos per channel on later (incremental) runs
+
+# LLM scoring.
+llm:
+  model: "claude-haiku-4-5"   # override with COMMENT_INTEL_MODEL env var
+  batch_size: 20              # comments per API call
+  min_score: 6                # only ideas scoring >= this are stored
+
+# Where things are written. Both folders are git-ignored.
+paths:
+  db: "data/comments.db"
+  reports_dir: "output/reports"
+
+# Demo mode (--demo) reads these instead of calling YouTube.
+demo:
+  fixtures: "fixtures/comments.json"
+  db: "output/demo/demo.db"
+  reports_dir: "output/demo/reports"

@@ -1,0 +1,10 @@
+# Core (enough for --demo and the tests)
+pyyaml>=6.0
+python-dotenv>=1.0
+# Live mode
+google-api-python-client>=2.100
+anthropic>=0.40
+# Optional MCP server (pinned <2: server.py imports FastMCP from the 1.x SDK)
+mcp>=1.2,<2
+# Tests
+pytest>=8.0

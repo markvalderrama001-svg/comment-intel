@@ -1,0 +1,53 @@
+{
+  "_note": "Synthetic data only. Every channel, video, comment and author below is invented for the demo.",
+  "channels": [
+    {
+      "name": "Demo Channel - Bookkeeping Basics",
+      "channel_id": "UCxxxxxxxxxxxxxxxxxxxxxx",
+      "videos": [
+        {"video_id": "synthetic-vid-01", "title": "Month-End Close for Small Businesses (Demo)"},
+        {"video_id": "synthetic-vid-02", "title": "Bank Reconciliations Made Simple (Demo)"},
+        {"video_id": "synthetic-vid-03", "title": "Accrual vs Cash Accounting (Demo)"}
+      ],
+      "comments": [
+        {"comment_id": "synthetic-c-001", "video_id": "synthetic-vid-01", "likes": 42, "author": "@JaneDoe", "published_at": "2026-01-05T14:00:00Z", "text": "How do you handle a month-end close when the bank feed is two days behind? Would love a full walkthrough."},
+        {"comment_id": "synthetic-c-002", "video_id": "synthetic-vid-01", "likes": 0, "author": "@AlexRivera", "published_at": "2026-01-05T15:10:00Z", "text": "first!"},
+        {"comment_id": "synthetic-c-003", "video_id": "synthetic-vid-01", "likes": 17, "author": "@SamLee", "published_at": "2026-01-06T09:30:00Z", "text": "Please make a video on setting up a close checklist for a two-person finance team. We keep missing accruals."},
+        {"comment_id": "synthetic-c-004", "video_id": "synthetic-vid-01", "likes": 1, "author": "@PriyaShah", "published_at": "2026-01-06T11:00:00Z", "text": "great video"},
+        {"comment_id": "synthetic-c-005", "video_id": "synthetic-vid-01", "likes": 8, "author": "@ChrisNguyen", "published_at": "2026-01-07T08:45:00Z", "text": "I struggle with prepaid expenses every single month. The amortization schedule is a mess in my file."},
+        {"comment_id": "synthetic-c-006", "video_id": "synthetic-vid-02", "likes": 55, "author": "@MariaGarcia", "published_at": "2026-01-10T13:20:00Z", "text": "How do I reconcile a credit card that has charges split across two statements?"},
+        {"comment_id": "synthetic-c-007", "video_id": "synthetic-vid-02", "likes": 3, "author": "@TomBaker", "published_at": "2026-01-10T16:05:00Z", "text": "how do I reconcile a credit card that has charges split across two statements??"},
+        {"comment_id": "synthetic-c-008", "video_id": "synthetic-vid-02", "likes": 0, "author": "@LeeKim", "published_at": "2026-01-11T10:00:00Z", "text": "nice"},
+        {"comment_id": "synthetic-c-009", "video_id": "synthetic-vid-02", "likes": 12, "author": "@NinaPatel", "published_at": "2026-01-11T12:40:00Z", "text": "Can you do one on what to do when the reconciliation is off by a tiny amount and you cannot find it?"},
+        {"comment_id": "synthetic-c-010", "video_id": "synthetic-vid-02", "likes": 4, "author": "@OmarHassan", "published_at": "2026-01-12T07:15:00Z", "text": "This finally made reconciliations click for me. I used to dread them, now it takes ten minutes."},
+        {"comment_id": "synthetic-c-011", "video_id": "synthetic-vid-02", "likes": 0, "author": "@EmmaWilson", "published_at": "2026-01-12T09:00:00Z", "text": "Is this in the playlist?"},
+        {"comment_id": "synthetic-c-012", "video_id": "synthetic-vid-03", "likes": 31, "author": "@DavidChen", "published_at": "2026-01-15T18:30:00Z", "text": "What's the difference between accrual and modified cash basis for a service business with retainers?"},
+        {"comment_id": "synthetic-c-013", "video_id": "synthetic-vid-03", "likes": 6, "author": "@SofiaRossi", "published_at": "2026-01-16T10:10:00Z", "text": "Explain deferred revenue like I am five. Our clients pay annually up front and I am confused about what hits revenue each month."},
+        {"comment_id": "synthetic-c-014", "video_id": "synthetic-vid-03", "likes": 2, "author": "@BenCarter", "published_at": "2026-01-16T14:00:00Z", "text": "Thanks for the clear explanation, the diagrams help a lot."},
+        {"comment_id": "synthetic-c-015", "video_id": "synthetic-vid-03", "likes": 0, "author": "@AishaBello", "published_at": "2026-01-17T08:20:00Z", "text": "lol"},
+        {"comment_id": "synthetic-c-016", "video_id": "synthetic-vid-03", "likes": 9, "author": "@JaneDoe", "published_at": "2026-01-17T19:45:00Z", "text": "Would love a tutorial on building a simple cash flow forecast from the accrual numbers."},
+        {"comment_id": "synthetic-c-006", "video_id": "synthetic-vid-02", "likes": 55, "author": "@MariaGarcia", "published_at": "2026-01-10T13:20:00Z", "text": "How do I reconcile a credit card that has charges split across two statements?"}
+      ]
+    },
+    {
+      "name": "Demo Channel - Spreadsheet Lab",
+      "channel_id": "UCyyyyyyyyyyyyyyyyyyyyyy",
+      "videos": [
+        {"video_id": "synthetic-vid-11", "title": "Lookup Formulas Without the Pain (Demo)"},
+        {"video_id": "synthetic-vid-12", "title": "Pivot Tables for Monthly Reporting (Demo)"}
+      ],
+      "comments": [
+        {"comment_id": "synthetic-c-101", "video_id": "synthetic-vid-11", "likes": 64, "author": "@AlexRivera", "published_at": "2026-02-01T12:00:00Z", "text": "XLOOKUP vs INDEX MATCH for a 200k row ledger, which one is actually faster?"},
+        {"comment_id": "synthetic-c-102", "video_id": "synthetic-vid-11", "likes": 0, "author": "@GraceLiu", "published_at": "2026-02-01T13:30:00Z", "text": "ok"},
+        {"comment_id": "synthetic-c-103", "video_id": "synthetic-vid-11", "likes": 21, "author": "@MarcusJones", "published_at": "2026-02-02T09:15:00Z", "text": "How do I build a lookup that keeps working when someone inserts a column? Mine keeps breaking every month."},
+        {"comment_id": "synthetic-c-104", "video_id": "synthetic-vid-11", "likes": 5, "author": "@HannahMuller", "published_at": "2026-02-02T17:40:00Z", "text": "I learned more here than in a whole semester of class, thank you so much for this."},
+        {"comment_id": "synthetic-c-105", "video_id": "synthetic-vid-11", "likes": 1, "author": "@IvanPetrov", "published_at": "2026-02-03T08:00:00Z", "text": "Can you make a video on cleaning vendor names before doing a lookup?"},
+        {"comment_id": "synthetic-c-106", "video_id": "synthetic-vid-12", "likes": 27, "author": "@LauraSmith", "published_at": "2026-02-05T11:25:00Z", "text": "Show us how to build a pivot that compares this month to the same month last year without helper columns."},
+        {"comment_id": "synthetic-c-107", "video_id": "synthetic-vid-12", "likes": 0, "author": "@KenjiSato", "published_at": "2026-02-05T12:00:00Z", "text": "subscribed"},
+        {"comment_id": "synthetic-c-108", "video_id": "synthetic-vid-12", "likes": 14, "author": "@OliviaBrown", "published_at": "2026-02-06T15:50:00Z", "text": "Why does my pivot table total not match the sum of the source data?"},
+        {"comment_id": "synthetic-c-109", "video_id": "synthetic-vid-12", "likes": 3, "author": "@PedroAlves", "published_at": "2026-02-06T20:10:00Z", "text": "Pivot refresh is a nightmare when the source range grows every month."},
+        {"comment_id": "synthetic-c-110", "video_id": "synthetic-vid-12", "likes": 0, "author": "@ZoeMartin", "published_at": "2026-02-07T07:30:00Z", "text": "music at the start is too loud"}
+      ]
+    }
+  ]
+}

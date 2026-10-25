@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comment-intel"
+version = "1.0.0"
+description = "Idempotent ETL pipeline: YouTube comments -> SQLite -> LLM scoring -> ranked Markdown reports."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mark Valderrama" }]
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0", "python-dotenv>=1.0"]
+
+[project.urls]
+Repository = "https://github.com/markvalderrama001-svg/comment-intel"
+
+[project.optional-dependencies]
+live = ["google-api-python-client>=2.100", "anthropic>=0.40"]
+mcp = ["mcp>=1.2,<2", "anthropic>=0.40", "google-api-python-client>=2.100"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+comment-intel = "comment_intel.run_pipeline:main"
+
+[tool.setuptools]
+packages = ["comment_intel"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
